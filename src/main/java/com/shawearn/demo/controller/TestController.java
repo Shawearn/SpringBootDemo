@@ -31,7 +31,7 @@ public class TestController {
     public String test(@PathVariable("userId") Integer userId, ModelMap modelMap) {
         UserTest user = userTestService.getUserTestById(userId);
         modelMap.put("user", user);
-        return "/test";
+        return "test";
     }
 
     /**

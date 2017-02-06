@@ -2,6 +2,7 @@ package com.shawearn.demo.persistence;
 
 import com.shawearn.demo.entity.UserTest;
 import com.shawearn.demo.entity.UserTestExample;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
