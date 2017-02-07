@@ -19,4 +19,13 @@ public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+
+//    // 用于处理编码问题
+//    @Bean
+//    public Filter characterEncodingFilter() {
+//        CharacterEncodingFilter characterEncodingFilter = new CharacterEncodingFilter();
+//        characterEncodingFilter.setEncoding("UTF-8");
+//        characterEncodingFilter.setForceEncoding(true);
+//        return characterEncodingFilter;
+//    }
 }
