@@ -8,7 +8,7 @@ CREATE TABLE `t_user` (
   `password` varchar(255) NOT NULL,
   `age` int(4) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- 插入测试用数据；
 INSERT INTO `db_blog`.`t_user` (`user_name`, `password`, `age`) VALUES ('Shawearn', '123456', '18');
