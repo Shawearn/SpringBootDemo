@@ -12,8 +12,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @Configuration
 @EnableAutoConfiguration
 @EnableAsync
-@MapperScan(basePackages = "com.shawearn.demo.persistence")
-@ComponentScan(basePackages = "com.shawearn.demo")
+@MapperScan(basePackages = {"com.shawearn.demo.persistence"})
+@ComponentScan(basePackages = {"com.shawearn.demo"})
 @PropertySource({"classpath:application.properties"})
 public class Application extends SpringBootServletInitializer {
     public static void main(String[] args) {
