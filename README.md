@@ -15,13 +15,10 @@ SpringBootDemo 是一个用 Maven 构建的 spring-boot 的示例项目
 
 ## 项目说明
 
-项目基于 spring-boot
-
-数据库连接池使用了阿里巴巴开源的 Druid
-
-ORM 使用了 MyBatis
-
-使用 mybatis-generator-maven-plugin 生成实体类
+* 项目基于 spring-boot
+* 数据库连接池使用了阿里巴巴开源的 Druid
+* ORM 使用了 MyBatis
+* 使用 mybatis-generator-maven-plugin 生成实体类
 
 ## 使用的框架
 
